@@ -142,7 +142,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding: 0.5rem 1rem !important;
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
   }
@@ -741,26 +741,57 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
-
 .brand-name {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 150px; /* Adjust as needed */
+  width: 150px;
 }
 
 .rudresh {
   color: #c770f0;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 900;
   letter-spacing: 5px;
+  margin-bottom: 0; /* Remove space between the lines */
   width: 100%;
 }
 
 .software-engineer {
   color: white;
-  font-size: 18px;
-  font-weight: bold;
+  font-size:14px;
+  margin-top: 0; /* Remove space above the second line */
   width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .brand-name {
+    width: 120px; /* Adjust width for smaller screens */
+  }
+
+  .rudresh {
+    font-size: 24px; /* Adjust font size for smaller screens */
+    letter-spacing: 4px; /* Adjust letter spacing for better fit */
+  }
+
+  .software-engineer {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-name {
+    width: 100px; /* Even smaller width for very small screens */
+  }
+
+  .rudresh {
+    font-size: 18px; /* Smaller font size */
+    letter-spacing: 4px; /* Adjust letter spacing */
+  }
+
+  .software-engineer {
+    font-size: 10px; /* Smaller font size for mobile */
+  }
 }
