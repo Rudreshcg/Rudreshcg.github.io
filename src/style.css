@@ -746,7 +746,6 @@ button:focus {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 150px;
 }
 
 .rudresh {
@@ -758,40 +757,24 @@ button:focus {
   width: 100%;
 }
 
-.software-engineer {
-  color: white;
-  font-size:14px;
-  margin-top: 0; /* Remove space above the second line */
-  width: 100%;
-}
 
-/* Responsive Styles */
 @media (max-width: 768px) {
-  .brand-name {
-    width: 120px; /* Adjust width for smaller screens */
-  }
+
 
   .rudresh {
-    font-size: 24px; /* Adjust font size for smaller screens */
-    letter-spacing: 4px; /* Adjust letter spacing for better fit */
+    font-size: 24px; 
+    letter-spacing: 4px;
   }
 
-  .software-engineer {
-    font-size: 12px; /* Adjust font size for smaller screens */
-  }
 }
 
 @media (max-width: 480px) {
   .brand-name {
-    width: 100px; /* Even smaller width for very small screens */
+    width: 100px;
   }
 
   .rudresh {
-    font-size: 18px; /* Smaller font size */
-    letter-spacing: 4px; /* Adjust letter spacing */
-  }
-
-  .software-engineer {
-    font-size: 10px; /* Smaller font size for mobile */
+    font-size: 20px;
+    letter-spacing: 4px;
   }
 }

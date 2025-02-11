@@ -40,8 +40,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex brand-text">
           <div className="brand-name">
-            <span className="rudresh">Rudresh</span>
-            <span className="software-engineer">Software Engineer</span>
+            <span className="rudresh">RUDRESH</span>
           </div>
         </Navbar.Brand>
 
