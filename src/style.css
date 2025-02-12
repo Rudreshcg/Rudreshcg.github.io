@@ -741,31 +741,37 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
-.brand-name {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+
+
+.brand-text {
+  text-decoration: none;
 }
 
 .rudresh {
-  color: #c770f0;
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 900;
   letter-spacing: 5px;
-  margin-bottom: 0; /* Remove space between the lines */
-  width: 100%;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #c770f0, #6a11cb, #2575fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(199, 112, 240, 0.5);
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
 }
 
+.rudresh:hover {
+  transform: scale(1.1);
+}
 
 @media (max-width: 768px) {
-
-
   .rudresh {
-    font-size: 24px; 
+    font-size: 24px;
     letter-spacing: 4px;
   }
-
 }
 
 @media (max-width: 480px) {
