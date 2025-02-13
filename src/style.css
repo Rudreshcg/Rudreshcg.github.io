@@ -250,9 +250,9 @@ button:focus {
   height: 100%;
 }
 
-.home-header {
+/* .home-header {
   padding-top: 80px !important;
-}
+} */
 
 .home-section {
   position: relative;
@@ -325,7 +325,7 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  /* padding-top: 100px !important; */
   padding-bottom: 20px !important;
   text-align: center;
 }

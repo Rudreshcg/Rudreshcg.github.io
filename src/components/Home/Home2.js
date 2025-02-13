@@ -16,40 +16,34 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              HI THERE, <span className="purple"> I'M A DEVELOPER </span> WITH A PASSION FOR INNOVATION
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I love turning ideas into reality through clean, efficient, and scalable code.
+              With a strong background in backend and full-stack development, I specialize in building high-performance applications.
               <br />
-              <br />I am fluent in classics like
+              <br />My core tech stack includes:
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Python, Django, FastAPI, and React. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I enjoy working on projects that involve:
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> Web Development, API Design, and Scalable Architectures. </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              In addition to Python, I have hands-on experience with <b className="purple">Node.js</b>,
+              and I love exploring modern JavaScript frameworks like
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> React.js </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              to build dynamic and responsive user interfaces.
+              <br />
+              <br />
+              Whether it's crafting robust backend systems or developing seamless frontend experiences,
+              I'm always eager to learn and push the boundaries of technology.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +61,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Rudreshcg"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/rudreshcg"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/rudreshcg/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +91,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/thenameis_rudresh"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

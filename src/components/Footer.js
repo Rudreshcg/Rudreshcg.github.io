@@ -88,6 +88,7 @@ import {
   Twitter,
   Instagram,
   YouTube,
+  GitHub,
   Pinterest,
   LinkedIn,
 } from "@mui/icons-material";
@@ -128,12 +129,11 @@ const Footer = () => {
                 Where design meets your dream lifestyle.
               </Typography>
               <Box mt={2} display="flex" justifyContent={isMobile ? "center" : "left"}>
-                <IconButton color="inherit" href="#"><Facebook /></IconButton>
-                <IconButton color="inherit" href="#"><Twitter /></IconButton>
-                <IconButton color="inherit" href="#"><Instagram /></IconButton>
-                <IconButton color="inherit" href="#"><YouTube /></IconButton>
-                <IconButton color="inherit" href="#"><Pinterest /></IconButton>
-                <IconButton color="inherit" href="#"><LinkedIn /></IconButton>
+                <IconButton color="inherit" href="https://github.com/Rudreshcg"><GitHub /></IconButton>
+                <IconButton color="inherit" href="https://www.linkedin.com/in/rudreshcg/"><LinkedIn /></IconButton>
+                <IconButton color="inherit" href="https://www.facebook.com/thenameis.rudresh/"><Facebook /></IconButton>
+                <IconButton color="inherit" href="https://twitter.com/rudreshcg"><Twitter /></IconButton>
+                <IconButton color="inherit" href="https://www.instagram.com/thenameis_rudresh"><Instagram /></IconButton>
               </Box>
             </motion.div>
           </Grid>
@@ -149,7 +149,7 @@ const Footer = () => {
                 Useful Links
               </Typography>
               <Box mt={2}>
-                <Link href="#" color="inherit" display="block" mb={1}>
+                <Link href="/about" color="inherit" display="block" mb={1}>
                   About Us
                 </Link>
                 <Link href="#" color="inherit" display="block" mb={1}>
@@ -175,13 +175,13 @@ const Footer = () => {
               <Typography variant="h6" fontWeight="bold">
                 Call
               </Typography>
-              <Typography mt={2}>+91-8431000242</Typography>
+              <Typography mt={2}>+91-9663383747</Typography>
               <Typography variant="h6" fontWeight="bold" mt={4}>
                 Write
               </Typography>
               <Typography mt={2}>
                 <Link href="mailto:info@tvashtainterior.com" color="inherit">
-                  info@tvashtainterior.com
+                  rudreshcsbg82@gmail.com
                 </Link>
               </Typography>
             </motion.div>
@@ -197,9 +197,9 @@ const Footer = () => {
               <Typography variant="h6" fontWeight="bold">
                 Visit
               </Typography>
-              <Typography mt={2}>Tvashta Interior</Typography>
+              {/* <Typography mt={2}>Tvashta Interior</Typography> */}
               <Typography mt={2}>
-                Survey No 88/1 Rampura, Viragonagar post, Bangalore-49
+                Bangalore - 560067
               </Typography>
             </motion.div>
           </Grid>
@@ -214,7 +214,7 @@ const Footer = () => {
           pt={3}
           mt={5}
         >
-          &copy; 2024 Tvashta Interior. All rights reserved.
+          &copy; 2024 Rudresh. All rights reserved.
         </Typography>
       </Container>
     </Box>

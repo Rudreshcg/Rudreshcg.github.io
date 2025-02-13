@@ -13,6 +13,8 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
+import { MdContactMail } from "react-icons/md";
+
 import Logo from "./Logo/Logo";
 
 function NavBar() {
@@ -80,6 +82,15 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdContactMail style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
