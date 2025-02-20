@@ -79,8 +79,8 @@ function Projects() {
                 imgPath={project.imgPath}
                 title={project.title}
                 description={project.description}
-                ghLink={project.ghLink}
-                demoLink={project.demoLink}
+                // ghLink={project.ghLink}
+                // demoLink={project.demoLink}
                 isBlog={false}
               />
             </Col>
