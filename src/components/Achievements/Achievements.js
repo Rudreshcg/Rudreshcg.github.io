@@ -3,28 +3,36 @@ import { Container, Row, Col } from "react-bootstrap";
 import AchievementCard from "./AchievementCard";
 import Particle from "../Particle";
 
-// Import your award images
-import performanceAward from "../../Assets/Projects/leaf.png";
-import hackathonWinner from "../../Assets/Projects/leaf.png";
-import quarterlyAward from "../../Assets/Projects/leaf.png";
+import hackathonCashPrize from "../../Assets/Acheivements/hackathoncashprize.JPG";
+import hackathonWinnerCerti from "../../Assets/Acheivements/hackathoncerti.JPG";
+import quarterlyAward from "../../Assets/Acheivements/quarterlyaward.JPG";
+import spotlightAward from "../../Assets/Acheivements/spotlight.JPG";
 
 const achievements = [
+  
   {
-    imgPath: hackathonWinner,
-    title: "Hackathon Winner",
-    description: "Won the 2024 company-wide hackathon for building an AI-powered automation tool.",
+    imgPath: spotlightAward,
+    title: "Spotlight Award",
+    description: "Awarded for demonstrating exceptional problem-solving and leadership skills.",
   },
   {
-    imgPath: performanceAward,
-    title: "Performance Award",
-    description: "Recognized as a 'Committed Developer' for outstanding contributions in Q2 2024.",
+    imgPath: hackathonCashPrize,
+    title: "Hackathon Cash Prize",
+    description: "Received a cash prize for winning the 2024 company-wide hackathon.",
   },
   {
     imgPath: quarterlyAward,
-    title: "Quarterly Excellence Award",
-    description: "Awarded for continuous innovation and problem-solving capabilities in the team.",
+    title: "Committed Developer",
+    description: "Recognized as a 'Committed Developer' for outstanding contributions in Q2 2024.",
   },
+  {
+    imgPath: hackathonWinnerCerti,
+    title: "Hackathon Winner",
+    description: "Won the 2024 company-wide hackathon for building an AI-powered automation tool.",
+  },
+  
 ];
+
 
 function Achievements() {
   return (

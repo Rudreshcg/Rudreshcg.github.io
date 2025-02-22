@@ -3,63 +3,54 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import tireplanet from "../../Assets/Projects/tireplanet.png";
+import dktire from "../../Assets/Projects/dktire.png";
+import secprism from "../../Assets/Projects/secprism.png";
+import tvashta from "../../Assets/Projects/tvashta.png";
+import sportsblog from "../../Assets/Projects/sportsblog.png";
+import mikloset from "../../Assets/Projects/mikloset.png";
 
 const projects = [
   {
-    imgPath: chatify,
-    title: "Chatify",
+    imgPath: mikloset,
+    title: "MikloSet",
     description:
-      "Personal Chat Room or Workspace built with React.js, Material-UI, and Firebase. Features real-time messaging, image sharing, and reactions.",
-    ghLink: "https://github.com/soumyajit4419/Chatify",
-    demoLink: "https://chatify-49.web.app/",
+      "MikloSet is a digital closet platform that helps users manage, organize, and plan their outfits efficiently.",
+  },
+
+  {
+    imgPath: tvashta,
+    title: "Tvashta",
+    description:
+      "Tvashta is an interior design company website showcasing modern and elegant design solutions for homes and offices.",
   },
   {
-    imgPath: bitsOfCode,
-    title: "Bits-0f-C0de",
+    imgPath: sportsblog,
+    title: "SportsBlog",
     description:
-      "Personal blog page built with Next.js and Tailwind CSS, supports markdown-based blogging, dark mode, and easy content creation.",
-    ghLink: "https://github.com/soumyajit4419/Bits-0f-C0de",
-    demoLink: "https://blogs.soumya-jit.tech/",
+      "SportsBlog is a blogging platform where users can write sports-related blogs and earn revenue from their content.",
+  },
+
+  {
+    imgPath: tireplanet,
+    title: "TirePlanet",
+    description:
+      "TirePlanet is a tires e-commerce website catering to business-to-customer (B2C) transactions, offering a seamless shopping experience.",
   },
   {
-    imgPath: editor,
-    title: "Editor.io",
+    imgPath: dktire,
+    title: "DK Tire",
     description:
-      "Online code and markdown editor with live preview, built using React.js. Supports HTML, CSS, JS, and auto-save using Local Storage.",
-    ghLink: "https://github.com/soumyajit4419/Editor.io",
-    demoLink: "https://editor.soumya-jit.tech/",
+      "DK Tire is a tires e-commerce platform designed for business-to-business (B2B) transactions, providing bulk purchasing options.",
   },
   {
-    imgPath: leaf,
-    title: "Plant AI",
+    imgPath: secprism,
+    title: "SecPrism",
     description:
-      "Trained a CNN model using PyTorch to detect plant diseases from images. Achieved 98% accuracy using a ResNet34 pretrained model.",
-    ghLink: "https://github.com/soumyajit4419/Plant_AI",
-    demoLink: "https://plant49-ai.herokuapp.com/",
-  },
-  {
-    imgPath: suicide,
-    title: "AI For Social Good",
-    description:
-      "Uses Natural Language Processing (NLP) to detect suicide-related posts and help in suicide prevention through early detection.",
-    ghLink: "https://github.com/soumyajit4419/AI_For_Social_Good",
-    demoLink: "https://your-demo-link.com", // Add correct demo link here
-  },
-  {
-    imgPath: emotion,
-    title: "Face Recognition & Emotion Detection",
-    description:
-      "Trained a CNN model with the FER-2013 dataset to classify human emotions. Integrated OpenCV for real-time face detection.",
-    ghLink: "https://github.com/soumyajit4419/Face_And_Emotion_Detection",
-    demoLink: "https://your-demo-link.com", // Add correct demo link here
+      "SecPrism is a security lifecycle management platform that helps organizations manage application security efficiently.",
   },
 ];
+
 
 function Projects() {
   return (
