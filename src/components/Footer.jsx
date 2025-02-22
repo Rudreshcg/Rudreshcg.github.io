@@ -46,15 +46,10 @@ const Footer = () => {
               whileInView="animate"
             >
               <Box display="flex" justifyContent={isMobile ? "center" : "left"} mb={2}>
-                {/* <img
-                  src={LogoPng}
-                  alt="Logo"
-                  style={{ maxWidth: "150px", height: "auto" }}
-                /> */}
                 <Logo />
               </Box>
               <Typography variant="h6" color="burlywood">
-                Where design meets your dream lifestyle.
+              Crafting code that shapes the future of technology.
               </Typography>
               <Box mt={2} display="flex" justifyContent={isMobile ? "center" : "left"}>
                 <IconButton color="inherit" href="https://github.com/Rudreshcg"><GitHub /></IconButton>
